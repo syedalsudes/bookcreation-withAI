@@ -1,41 +1,16 @@
-# Website
+Title: AI-Powered Docusaurus Book
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Description:
+This repository contains a static technical book created using Docusaurus. The book demonstrates how AI concepts can enhance content creation workflows, improve documentation quality, and provide structured, user-friendly technical content. Currently, it includes chapters on:
 
-## Installation
+Introduction to AI-Powered Docusaurus Book Creation
 
-```bash
-yarn
-```
+Setting Up Your Docusaurus Project
 
-## Local Development
+AI/Spec-Driven Content Guidelines
 
-```bash
-yarn start
-```
+Project Specs and Best Practices
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Quick Tips and Summary
 
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The project is fully deployable on GitHub Pages or Vercel for live preview.
