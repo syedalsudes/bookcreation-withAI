@@ -1,11 +1,31 @@
+
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  justify-content: center;
+  padding: 3rem 0;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureCard {
+  background-color: var(--ifm-color-primary-lightest);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: var(--ifm-color-on-primary);
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.featureContent h3 {
+  margin-bottom: 1rem;
+}
+
+.featureContent p {
+  margin-bottom: 1.5rem;
 }
